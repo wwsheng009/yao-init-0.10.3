@@ -30,17 +30,17 @@ https://github.com/YaoApp/yao/actions/runs/4321507798
 
 ## 启动 yao
 
-复制初始化模板到别的目录或是直接使用`yao-init`
-
 ```sh
-cp -r yao-init/ /tmp
-cd /tmp/yao-init/
+git clone https://github.com/wwsheng009/yao-init-0.10.3.git
+
+cd yao-init-0.10.3.git
+
+yao start
 ```
 
-执行以下命令，控制台会提示打开地址http://127.0.0.1:5099进行配置数据库连接
+控制台会提示打开地址http://127.0.0.1:5099进行配置数据库连接
 
 ```sh
-root@archlinux /t/yao-init# yao start
 ---------------------------------
 Yao Application Setup v0.10.3
 ---------------------------------
@@ -60,3 +60,7 @@ _注意，只有执行目录下没有.env 文件并且数据库为空时才会�
 xiang@iqka.com
 密码:
 A123456p+
+
+## 详细文档说明
+
+[https://github.com/wwsheng009/yao-docs](https://github.com/wwsheng009/yao-docs)
