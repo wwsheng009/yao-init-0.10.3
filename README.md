@@ -31,9 +31,9 @@ https://github.com/YaoApp/yao/actions/runs/4321507798
 ## 启动 yao
 
 ```sh
-git clone https://github.com/wwsheng009/yao-init-0.10.3.git
+git clone --depth 1 https://github.com/wwsheng009/yao-init-0.10.3.git my-yao-app
 
-cd yao-init-0.10.3.git
+cd my-yao-app
 
 yao start
 ```
