@@ -1,6 +1,6 @@
 /*
 Test:
-curl --location --request POST --X POST 'http://127.0.0.1:5099/api/aigc/translate' \
+curl --location --request POST 'http://127.0.0.1:5099/api/aigc/translate' \
 --header 'User-Agent: Apipost client Runtime/+https://www.apipost.cn/' \
 --header 'Content-Type: application/json' \
 --data '{"content":"你好"}'

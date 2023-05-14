@@ -215,8 +215,8 @@
       "validations": [
         {
           "method": "typeof",
-          "args": ["integer"],
-          "message": "{{input}}类型错误, {{label}}应该为数字"
+          "args": ["string"],
+          "message": "{{input}}类型错误, {{label}}应该为字符串"
         },
         {
           "method": "pattern",
