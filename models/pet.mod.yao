@@ -35,10 +35,23 @@
     {
       "name": "online",
       "label": "是否在线",
-      "type": "boolean",
-      "default": false,
-      "index": true
+      "type": "enum",
+      "default": "0",
+      "option": ["0", "1"]
     },
+    {
+      "name": "detail",
+      "label": "详细描述",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "name": "appearance",
+      "label": "宠物外观",
+      "type": "json",
+      "nullable": true
+    },
+
     {
       "name": "curing_status",
       "label": "治疗状态",
@@ -47,7 +60,12 @@
       "option": ["0", "1", "2"],
       "index": true
     },
-    { "name": "stay", "label": "入院时间", "type": "integer" },
+    {
+      "name": "stay",
+      "label": "入院时间",
+      "type": "datetime",
+      "nullable": true
+    },
     { "name": "cost", "label": "花费", "type": "integer" },
     {
       "name": "images",
